@@ -78,7 +78,7 @@ This project leverages python 3.7 with the following libraries and dependencies:
 4. Next the program will calculate the Sharpe and Sortino ratios of the stocks in that sector in order to assist the user in selecting the asset with the best risk/return ratio
 5. Finally, once the stock has been selected, the user will set a desired timeframe and the program will pull in the necessary data for the subsequent analysis
 
-![Sortino ratios](/Users/Feifer/Desktop/Money-Machine/images/sortinoratios.png)
+![Sortino ratios](/images/sortinoratios.png)
 
 ### **Using SVM model for Predictions**
 
@@ -87,7 +87,7 @@ This project leverages python 3.7 with the following libraries and dependencies:
 3. The model will then be trained to the training dataset and then tested against the test set
 4. The program will return the calculation report and a graph of the predictions vs. the actual data
 
-![Classification report](/Users/Feifer/Desktop/Money-Machine/images/classificationreport.png)
+![Classification report](/images/classificationreport.png)
 
 
 ![SVM returns](/images/svmreturns.png)
@@ -107,7 +107,7 @@ The SVM model made trading decisions that underperformed the actual returns.
 
 Some members ofour team were couldnt access the keras library due to issues with the M1 processor. As a result we had we ketp the lstm code on Google Colab for accessibility purposes. In future iterations of this project we plan to address this by consolidating all ipynb on Google Colab. Note and comments in the Google Colab ipynb  give more context to this issue and how we worked around it.
 
-![LSTM predictions](/Users/Feifer/Desktop/Money-Machine/images/streamlitpic.png)
+![LSTM predictions](/images/streamlitpic.png)
 
 ### **Streamlit**
 
